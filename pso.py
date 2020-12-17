@@ -24,7 +24,7 @@ v = []
 
 
 # iterações:
-totaliter = 100
+totaliter = 10
 
 
 v.append(generateParticle(G))
@@ -55,8 +55,8 @@ while (i< totaliter):
     for particle in list(v[i]):
         r1 = random.uniform(0, 1)
         r2 = random.uniform(0, 1)
-        c1 = 1
-        c2 = 1
+        c1 = 2
+        c2 = 4 -c1
         particle['velocity'] = r1*c1*(lBest - particle['velocity']) + r2*c2*(gBest - particle['velocity'])
         particle['position'] = particle['position'] + particle['velocity']
         particle['fitness'] = calcFitness(particle['position'])

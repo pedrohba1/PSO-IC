@@ -1,6 +1,6 @@
 import networkx as nx
 
-graphname = 'C250-9.mtx'
+graphname = 'c125-9.mtx'
 file1 = open('grafos/{}'.format(graphname), 'r') 
 Lines = file1.readlines()
 
