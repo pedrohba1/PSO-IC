@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="66" />
+    <node id="88" />
+    <node id="27" />
+    <node id="1" />
+    <node id="80" />
+    <node id="59" />
+    <node id="43" />
+    <node id="19" />
+    <edge source="66" target="1" />
+    <edge source="66" target="19" />
+    <edge source="66" target="27" />
+    <edge source="66" target="43" />
+    <edge source="66" target="59" />
+    <edge source="66" target="80" />
+    <edge source="66" target="88" />
+    <edge source="88" target="1" />
+    <edge source="88" target="19" />
+    <edge source="88" target="27" />
+    <edge source="88" target="43" />
+    <edge source="88" target="59" />
+    <edge source="88" target="80" />
+    <edge source="27" target="1" />
+    <edge source="27" target="19" />
+    <edge source="27" target="43" />
+    <edge source="27" target="59" />
+    <edge source="27" target="80" />
+    <edge source="1" target="19" />
+    <edge source="1" target="43" />
+    <edge source="1" target="59" />
+    <edge source="1" target="80" />
+    <edge source="80" target="19" />
+    <edge source="80" target="43" />
+    <edge source="80" target="59" />
+    <edge source="59" target="19" />
+    <edge source="59" target="43" />
+    <edge source="43" target="19" />
+  </graph>
+</graphml>
